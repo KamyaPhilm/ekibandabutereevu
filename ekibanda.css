@@ -1,0 +1,208 @@
+body{
+	margin: 0;
+	font-family: Calibri;
+}
+
+		/*this is the title*/
+		.title{
+			margin: 0;
+			background-color: #ffeb3b;
+			font-size: 40px;
+			color: #4a148c; 
+			font-weight: bold;
+			text-align: center;
+			text-transform: uppercase;
+			word-spacing: 70px;
+			letter-spacing: 10px;
+			padding: 8px;
+			cursor: default;
+			text-shadow: -2px -2px 4px black;
+			font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", georgia, sans-serif;
+		}
+
+			/*this is the moving advert and the time*/
+			.ads{
+				width: 100%;
+				height: 40px;
+				margin-bottom: 30px;
+
+				background-color: #4a148c;
+				box-shadow: 0px 2px 6px black;
+				border-bottom: 5px solid deeppink;
+			}
+
+				#time{
+					float: left;
+					width: 15% auto;
+					height: 100%;
+					padding: 3px 7px 3px 7px;
+
+					font-size: 22px;
+					color: #fd0707;
+					background-color: black;
+					text-align: center;
+					font-family: lcd;
+				}
+
+					.marquee{
+						position: absolute;
+						padding-right: 20px;
+						height: auto;
+						padding-top: 8px;
+
+						color: #ffc107;
+						font-family: arial, sans-serif;
+					}
+
+
+				/*this is the iframe div*/
+				.iscreen{
+					width: 70%;
+					height: 300px;
+					margin: auto;
+					border: 1px solid transparent;
+					border-radius: 6px; 
+				}
+
+			/*this is the display iframe*/
+			.screen{
+				width: 100%;
+				height: 100%;
+				margin:  auto;
+				border-radius: 6px;
+				border: none;
+			}
+
+		/*this is the media nav*/
+		.ulnav{
+		  padding: 0;
+		  overflow: hidden;
+		  list-style-type: none;
+		  padding-left: 5px;
+		  background-color: deeppink;
+		  border-top: 3px solid deeppink;
+		  border-bottom: 3px solid deeppink;
+		}
+
+	.ulli{
+		float: left;
+	}
+
+.ulli .ula{
+	display: block;
+	color: white;
+	padding: 10px 40px;
+	font-size: 18px;
+	font-family: arial, sans-serif;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+	.ula:hover{
+		color: deeppink;
+		border-radius: 5px;
+		background-color: black;
+	}
+
+
+		/*this is the search bar*/
+		#search{
+			width: 30%;
+			float: right;
+			margin-right: 60px;
+			margin-top: 6px;
+			border-radius: 5px;
+			padding: 6px 30px;
+
+			color: deeppink;
+			font-size: 16px;
+			border: none;
+		}
+									
+
+			/*this is the media selection iframe*/
+			.item{
+				width: 100%;
+				height: 300px;
+				border-bottom: 5px solid deeppink;
+			}
+
+				.select{
+					width: 100%;
+					height: 100%;
+					border: none;
+					overflow-y: auto;
+				}
+
+					/*for both video and tv thumbs*/
+					.col-sm-2{
+						display: inline;
+
+					}
+
+						.vid{
+							width: 170px;
+							height: auto;
+							margin-bottom: 10px;
+							display: inline-block;
+						}
+
+					.thumbnails{
+						width: 100%;
+						height: 80px;
+					}
+
+				.captop{
+					text-align: center;
+					width: 100%;
+					height: auto;
+					font-size: auto;
+					color: #ffc107;
+					background-color: #4a148c;
+					text-transform: capitalize;
+				}
+
+			.capbot{
+				text-align: center;
+				width: 100%;
+				height: auto;
+				font-size: auto;
+				color: black;
+				background-color: #ffeb3b;
+				text-transform: capitalize;
+			}
+
+		.amedia{
+			text-decoration: none;
+		}
+
+	.col-sm-1{
+		display: inline;
+	}
+
+	.vidmov{
+		width: 100px;
+		height: auto;
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+
+.movthumbs{
+	width: 100%;
+	height: 120px;
+}
+
+
+.footer{
+	width: 100%;
+	height: auto;
+	background-position: center;
+	background-image: url("tool/nasalawo.png");
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-color: #212121;
+}
+
+	
+
+							
